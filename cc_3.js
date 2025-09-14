@@ -7,4 +7,4 @@ customers.push({name: "Daniel", email: "WonderGurt@gmail.com", purchases: ["G25H
 customers.shift(0)
 customers[0].email = "MarcoTheGreat@gmail.com"
 customers[2].purchases.push("Super Smash Bros Ultimate")
-customers.forEach(customers => console.log(`${customers.name}`))
+customers.forEach(customers => console.log(`${customers.name} | ${customers.email} | This person has ${customers.purchases.length} purchases.`))
